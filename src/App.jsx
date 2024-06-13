@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-// import Cakes from './assets/Comp/Cakes'
 import Header from './assets/Comp/Header'
 import {BrowserRouter, Route ,Routes } from 'react-router-dom'
 import {CartProvider}from 'react-use-cart'
@@ -17,6 +16,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route path='/cart' element={<Cart />} />
+        <Route path='/about' element={<Home />} />
       </Routes>
       <footer>
         <Footer />
