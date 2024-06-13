@@ -1,0 +1,8 @@
+.one{
+  font-family: cursive;
+}
+.two {
+  background-image: url('./img/bg.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+}
