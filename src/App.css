@@ -2,7 +2,7 @@
   font-family: cursive;
 }
 .two {
-  background-image: url('./img/bg.jpg'); /* Replace with your image path */
+  background-image:url('https://images.alphacoders.com/103/1031426.jpg'); /* Replace with your image path */
   background-size: cover;
   background-position: center;
 }

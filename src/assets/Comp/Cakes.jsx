@@ -10,7 +10,7 @@ const Cakes = () => {
       id: 1,
       price: 2000,
       desc: "This classic American cake features vibrant red velvet layers with a tangy cream cheese frosting. Its origins are debated, but its popularity is undeniable.",
-      img: "./img/velvet.jpg"
+      img: "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/89/72/z1waTloRRUeZkdkAPS7A_rvcc1.jpg"
     },
     {
         name:"Black Forest",
