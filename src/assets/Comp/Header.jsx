@@ -22,8 +22,9 @@ const Header = () => {
         <header className="bg-red-600 text-white shadow-md w-[100%]">
             <div className="container mx-auto flex justify-between items-center p-4 py-8">
                 <div className="one text-2xl font-bold">
-                    <NavLink to="/">Nanna's Cakes</NavLink>
+                    <NavLink to="/">Nanna's Cakes </NavLink>
                 </div>
+                <section><p>Items in Cart [ {totalUniqueItems} ]</p></section>
                 <nav className="hidden md:flex space-x-6">
                     {menuItems.map((item) => (
                         <NavLink
