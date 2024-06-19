@@ -19,7 +19,7 @@ const Header = () => {
     ];
 
     return (
-        <header className="bg-red-600 text-white shadow-md w-[100%]">
+        <header className="bg-red-600 top-0 sticy  text-white shadow-md w-[100%]">
             <div className="container mx-auto flex justify-between items-center p-4 py-8">
                 <div className="one text-2xl font-bold">
                     <NavLink to="/">Nanna's Cakes </NavLink>

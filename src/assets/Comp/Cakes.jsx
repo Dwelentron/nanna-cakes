@@ -152,17 +152,17 @@ const Cakes = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
       {cakes_displayed.map((item) => (
-        <div key={item.id} className="bg-white rounded-lg shadow-md overflow-hidden">
+        <div key={item.id} className="bg-black bg-opacity-50 rounded-lg shadow-md overflow-hidden">
           <section className="relative h-48 overflow-hidden">
             <img src={item.img} alt={item.name} className="w-full h-full object-cover hover:object-contain" />
           </section>
           <section className="p-4 flex flex-col justify-between">
             <div>
-              <h1 className="text-xl font-semibold text-gray-800">{item.name}</h1>
-              <p className="text-gray-600">{item.desc}</p>
+              <h1 className="text-xl font-semibold text-gray-100">{item.name}</h1>
+              <p className="text-gray-200">{item.desc}</p>
             </div>
             <div className="flex items-center justify-between mt-4">
-              <span className="text-lg font-semibold text-gray-800">Ksh {item.price} /=</span>
+              <span className="text-lg font-semibold text-gray-500">Ksh {item.price} /=</span>
               {inCart(item.id) ?
                 <button className="bg-red-700 text-white px-4 py-2 rounded-md hover:bg-red-500 transition">
                   In Cart
